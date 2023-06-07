@@ -5,7 +5,7 @@ public class pattern{
     {
         for(int i=1;i<6;i++)
         {
-            for( int j=c;j<5;j++)
+            for( int j=0;j<5;j++)
             {
                 System.out.print("hi ");
             }
