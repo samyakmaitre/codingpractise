@@ -1,3 +1,9 @@
-one img{
+div{
+    margin: 0px;
+    padding: 0px;
+}
+
+.two{
+    background-color: aqua;
     height: 100%;
 }
