@@ -7,8 +7,9 @@ public class string {
         // int l1 = s2.length();
         // String s2 = s2.toUpperCase(null);
         // System.out .println(l1);
-        boolean variable = s2.contains("VIT ");
-        System.out.println(variable);
+        boolean variable = s1.contains("VIT");
+        boolean variablee = s2.contains("VIT");
+        System.out.println(variable +" "+ variablee);
     }
     
 }

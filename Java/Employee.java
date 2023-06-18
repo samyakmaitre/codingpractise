@@ -2,7 +2,6 @@ package Java;
 
 
 public class Employee {
-    private String name;
     private int emp_id;
 
     public void set_id(int id) {
