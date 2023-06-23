@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Person Information</title>
+  <title>Function functioning</title>
 </head>
 <body>
   <script>
     function maximum(a,b,c){
         return(Math.max(Math.max(b,c)));
     }
-    document.writeln("Maximum number is "+ maximum(10,70,30));
+    function sum(a,b,c){
+        return(c+a+b);
+    }
+    
+    
+    document.write("Maximum number is "+ maximum(10,70,30));
+    document.writeln("Sum is "+sum(10,70,30));
+    var value;
+    for (var i=1; i<=10; i++){
+        value = Math.floor(1+Math.random()+6);
+        document.writeln(value);
+    }
   </script>
 </body>
 </html>
