@@ -2,5 +2,6 @@
 # automatic email system
 
 name = "Jake"
-sentence= "%s is 15 years old"
-print(sentence %sentence) 
+namee= "jack"
+sentence= "%s %s is 15 years old"
+print(sentence % ("Barak", "Obama")) 
