@@ -6,6 +6,4 @@ sentence = "my name is samyak"
 
 
 sara, bob, mike = 12, 14, 18
-print(sara+bob)
-print(bob)
-print(mike)
+print(sara+bob, sentence,bob, mike)
