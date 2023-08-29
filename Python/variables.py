@@ -2,4 +2,10 @@
 
 age = 20
 sentence = "my name is samyak"
-print(sentence, "and i am",age)
+
+
+
+sara, bob, mike = 12, 14, 18
+print(sara+bob)
+print(bob)
+print(mike)
