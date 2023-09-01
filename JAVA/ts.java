@@ -1,5 +1,3 @@
-
- 
 class GFG{
  
 // Function to find a pair in the given
