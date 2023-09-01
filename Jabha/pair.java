@@ -1,7 +1,4 @@
-// Java program for the above approach
-import java.lang.*;
-import java.util.*;
- 
+
 class GFG{
  
 // Function to find a pair in the given
