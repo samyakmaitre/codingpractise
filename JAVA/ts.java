@@ -7,7 +7,8 @@ static boolean findPair(int a[], int n, int z)
     for(int i = 0; i < n; i++)                   // Iterate through all the pairs
         for(int j = 0; j < n; j++)
             if (i != j && a[i] + a[j] == z)      // Check if the sum of the pair
-                return true;                     // (a[i], a[j]) is equal to z
+                return true;         
+                            // (a[i], a[j]) is equal to z
  
     return false;
 }public static void main(String[] args)          // Driver code
