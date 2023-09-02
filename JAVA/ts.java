@@ -4,21 +4,13 @@ class GFG{
 // array whose sum is equal to z
 static boolean findPair(int a[], int n, int z)
 {
-     
-    // Iterate through all the pairs
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)                   // Iterate through all the pairs
         for(int j = 0; j < n; j++)
-         
-            // Check if the sum of the pair
-            // (a[i], a[j]) is equal to z
-            if (i != j && a[i] + a[j] == z)
-                return true;
+            if (i != j && a[i] + a[j] == z)      // Check if the sum of the pair
+                return true;                     // (a[i], a[j]) is equal to z
  
     return false;
-}
- 
-// Driver code
-public static void main(String[] args)
+}public static void main(String[] args)          // Driver code
 {
      
     // Given Input
