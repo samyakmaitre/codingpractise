@@ -1,5 +1,5 @@
 
-class Main
+class euler
 {
 	static int phi(int n)
 	{
