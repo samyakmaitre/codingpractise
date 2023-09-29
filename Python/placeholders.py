@@ -1,5 +1,4 @@
-#palceholders
-# automatic email system
+
 
 name = "Jake"
 sentence= "%s %d is 15 years old"
