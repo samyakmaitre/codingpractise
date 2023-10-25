@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
+
     }
 }
 
-
-// overview of solution
 // process flow
 // Please mention your Tech Stack (wherever applicable)
 // Detailed Description of the solution(Architecture)
