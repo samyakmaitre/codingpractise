@@ -17,5 +17,6 @@ public class add_Two_Numbers{
             double are = 3.14*(Math.pow((d/2),2));
             System.out.println("area is "+are);
         }
+        scn.close();
     }
 }
