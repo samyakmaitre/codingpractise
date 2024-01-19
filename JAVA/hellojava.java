@@ -27,6 +27,7 @@ class hellojava {
             catch(Exception e) {
                 System.out.println(sc.next() + "Cant be fitted anywhere.");
             }
+            sc.close();
 
         }
     }
