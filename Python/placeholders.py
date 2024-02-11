@@ -1,10 +1,12 @@
+def transform_string(s):
+    result = ""
+    for i in range(len(s)):
+        if i % 2 == 0:  # even position
+            result += s[i].lower()
+        else:  # odd position
+            result += s[i].upper()
+    return result
 
-
-
-
-a = input()
-a = a.lower()
-
-
-for x in range (0,len(a)):
-    print(a.index(3))
+user_input = input("Enter a string: ")
+transformed_string = transform_string(user_input)
+print("Transformed string:", transformed_string)
