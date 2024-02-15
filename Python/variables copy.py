@@ -3,7 +3,8 @@
 # c = abs(a)
 # d = pow(a,2)
 # print(b ,c ,d)
- 
+
+
 x,y,z,f=27,10,-9,4
 a=x+y
 b=x-y
