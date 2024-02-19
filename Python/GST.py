@@ -1,6 +1,6 @@
-c = float(input("Enter %CGST: "))
-s = float(input("Enter %SGST: "))
-n = int(input("Enter no. of units: "))
 p = float(input("Enter cost: "))
-amt = n*(p+(((c/100)*p)+((s/100)*p)))
+c = (float(input("Enter %CGST: "))/100)*p
+s = (float(input("Enter %SGST: "))/100)*p
+n = int(input("Enter no. of units: "))
+amt = n*(p+c+s)
 print("total amt is: ",amt)
