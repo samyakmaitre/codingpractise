@@ -9,7 +9,8 @@ public class java22{
     }
 
     public static void main (String args[]){
-        addition(10, 7);
+        System.out.println(addition(10, 7));
+        
     }
 }
 
