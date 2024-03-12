@@ -4,7 +4,6 @@ public class binomial{
     }
 
     public static float fact(int n, int r){
-        int fact = 1, rfact = 1, sfact = 1;
 
         for(int i=1; i<=n ; i++){
             fact *= i;
@@ -14,21 +13,9 @@ public class binomial{
     }
 
 
-    public static float fact(int n, int r){
-        int nfact = 1, rfact = 1, sfact = 1;
+    public static float facts(int n, int r){
 
-        for(int i=1; i<=n ; i++){
-            nfact *= i;
-        }
-        for(int i=1; i<=r ; i++){
-            rfact *= i;
-        }
-        for(int i=1; i<=(n-r) ; i++){
-            sfact *= i;
-        }
-
-        float prod = nfact/(rfact*sfact);
-
-        return prod;
+        
+        
     }
 }
