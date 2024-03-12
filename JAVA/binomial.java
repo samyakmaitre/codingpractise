@@ -12,7 +12,6 @@ public class binomial{
         return fact;
     }
 
-
     public static float facts(int n, int r){
 
         
