@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bintodec",
+            "request": "launch",
+            "mainClass": "bintodec",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "binomial",
             "request": "launch",
             "mainClass": "binomial",
