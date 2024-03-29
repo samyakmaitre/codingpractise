@@ -21,7 +21,6 @@ class Solution {
             for (int j = 1; j < i; j++) {
                 newRow.add(row.get(j - 1) + row.get(j));
             }
-            
             newRow.add(1); // Last element of each row is always 1
             
             // Update the current row
