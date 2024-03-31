@@ -25,7 +25,8 @@ class Solution {
             
             // Update the current row
             row = newRow;
-        }        
+        }
+        
         return row;
     }
 }
