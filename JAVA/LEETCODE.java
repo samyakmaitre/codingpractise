@@ -15,8 +15,7 @@ class Solution {
         for (int i = 1; i <= rowIndex; i++) {
             // Calculate the current row based on the previous row
             List<Integer> newRow = new ArrayList<>();
-            newRow.add(1); // First element of each row is always 1
-            
+            newRow.add(1); // First element of each row is always 1            
             // Calculate middle elements using values from the previous row
             for (int j = 1; j < i; j++) {
                 newRow.add(row.get(j - 1) + row.get(j));
