@@ -23,7 +23,8 @@ class Solution {
             newRow.add(1); // Last element of each row is always 
             // Update the current row
             row = newRow;
-        }                
+        }      
+                  
         return row;
     }
 }
