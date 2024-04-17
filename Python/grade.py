@@ -55,6 +55,7 @@ class GradeCalculator:
         else:
             print("Invalid semester number.")
 
+
 # Main program
 calculator = GradeCalculator()
 calculator.take_input()
