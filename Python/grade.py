@@ -54,8 +54,6 @@ class GradeCalculator:
             print(f"CGPA upto Semester {semester_num}: {cgpa:.2f}")
         else:
             print("Invalid semester number.")
-
-# Main program
 calculator = GradeCalculator()
 calculator.take_input()
 
