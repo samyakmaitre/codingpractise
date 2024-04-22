@@ -57,5 +57,7 @@ class GradeCalculator:
 calculator = GradeCalculator()
 calculator.take_input()
 
+
+
 semester_number = int(input("Enter the semester number to display GPA and CGPA: "))
 calculator.get_semester_gpa_cgpa(semester_number)
