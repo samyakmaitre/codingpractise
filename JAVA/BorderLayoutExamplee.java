@@ -1,7 +1,9 @@
-import javax.swing.*;
-import java.awt.*;
+import java.awt.BorderLayout;
 
-public class BorderLayoutExample {
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class BorderLayoutExamplee {
     public static void main(String[] args) {
         JFrame frame = new JFrame("BorderLayout Example");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -17,6 +19,11 @@ public class BorderLayoutExample {
         frame.add(new JButton("Center"), BorderLayout.CENTER);
 
         frame.setVisible(true);
+    }
+
+    @Override
+    public String toString() {
+        return "BorderLayoutExample []";
     }
 }
 
