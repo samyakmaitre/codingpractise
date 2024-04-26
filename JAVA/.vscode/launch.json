@@ -1,14 +1,11 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
     "configurations": [
         {
-            "type": "nativeimage",
+            "type": "java",
+            "name": "java26",
             "request": "launch",
-            "name": "Launch Native Image",
-            "nativeImagePath": "${workspaceFolder}/build/native-image/application"
+            "mainClass": "java26",
+            "projectName": "JAVA_d48921b9"
         }
     ]
 }
