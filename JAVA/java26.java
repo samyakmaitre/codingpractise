@@ -73,8 +73,11 @@ public class java26
         return isprime;
     }
     
+    public static void bintodec(int n){
+        
+    }
 
     public static void main(String args[]){
-        System.out.println(isprime(6));
+        System.out.println(bintodec(6));
     }
 }

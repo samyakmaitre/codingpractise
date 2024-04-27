@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "java27",
+            "request": "launch",
+            "mainClass": "java27",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
             "name": "java26",
             "request": "launch",
             "mainClass": "java26",
