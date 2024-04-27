@@ -14,8 +14,6 @@ public class java27{
         }
         System.out.println(dec);
     }
-
-    
         public static void DecToBin(int n) {
             int bin = 0;
             int pow = 0;
