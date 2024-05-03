@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rohombus",
+            "request": "launch",
+            "mainClass": "rohombus",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
+            "name": "evenodd",
+            "request": "launch",
+            "mainClass": "evenodd",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
+            "name": "butterfly",
+            "request": "launch",
+            "mainClass": "butterfly",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
             "name": "PalindromeCheck",
             "request": "launch",
             "mainClass": "PalindromeCheck",

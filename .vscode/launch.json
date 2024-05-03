@@ -1,3 +1,40 @@
 {
+    "configurations": [
+        {
+            "type": "java",
+            "name": "floyd",
+            "request": "launch",
+            "mainClass": "floyd",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "pyramid",
+            "request": "launch",
+            "mainClass": "pyramid",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Hollow",
+            "request": "launch",
+            "mainClass": "Hollow",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "hollow",
+            "request": "launch",
+            "mainClass": "hollow",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Mainn",
+            "request": "launch",
+            "mainClass": "Mainn",
+            "projectName": "codingpractise_75382018"
+        }
+    ]
     
 }

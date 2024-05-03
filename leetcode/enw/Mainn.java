@@ -1,18 +1,33 @@
-import java.util.Scanner;
+import java.util.HashSet;
 
-public class Main {
+public class Mainn {
+    public static void main(int[] nums, int k) {
+        // Create a HashSet to store elements of the array
+        HashSet<Integer> set = new HashSet<>();
+        int count = 0;
 
-    public static void main(String[] args){
+        // Add all elements of the array to the HashSet
+        for (int num : nums) {
+            set.add(num);
+        }
 
-        Scanner sc = new Scanner(System.in);
+        // Iterate through the array and check for pairs with difference k
+        for (int num : nums) {
+            if (set.contains(num + k)) {
+                count++;
+            }
+        }
 
-        System.out.print("Enter size of the array: ");
-        int size = sc.nextInt();
-
-        int[] array = new int[];
-        int array[] = new int[];
-
-        System.out.println()
+        return count;
     }
 
+    public static void main(String[] args) {
+        // Example input
+        int[] nums = {1, 5, 3, 4, 2};
+        int k = 3;
+
+        // Count distinct pairs with difference k
+        int result = countPairs(nums, k);
+        System.out.println("Output: " + result);
+    }
 }
