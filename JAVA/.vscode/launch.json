@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subarray",
+            "request": "launch",
+            "mainClass": "subarray",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
+            "name": "pairs",
+            "request": "launch",
+            "mainClass": "pairs",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
+            "name": "rev",
+            "request": "launch",
+            "mainClass": "rev",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
             "name": "binary",
             "request": "launch",
             "mainClass": "binary",
