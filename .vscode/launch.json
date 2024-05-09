@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "divisorgame",
+            "request": "launch",
+            "mainClass": "divisorgame",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "floyd",
             "request": "launch",
             "mainClass": "floyd",
