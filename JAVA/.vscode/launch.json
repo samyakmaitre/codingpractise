@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "trappedwater",
+            "request": "launch",
+            "mainClass": "trappedwater",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
+            "name": "arraycc",
+            "request": "launch",
+            "mainClass": "arraycc",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
             "name": "subarray",
             "request": "launch",
             "mainClass": "subarray",
