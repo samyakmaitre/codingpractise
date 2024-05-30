@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bubblesort",
+            "request": "launch",
+            "mainClass": "bubblesort",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
             "name": "trappedwater",
             "request": "launch",
             "mainClass": "trappedwater",
