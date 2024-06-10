@@ -59,11 +59,14 @@ public class strings {
     
         return sb.toString();
     }
+
     
     public static void main(String args[]) {
-        String str = "hi, i am shraddha";
-        System.out.println(toUpperCase(str));
+       
+        int octalof10 = 10;
+        System.out.println(~5);
     }
+    
     
 
 

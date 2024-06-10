@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "OOPS",
+            "request": "launch",
+            "mainClass": "OOPS",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "arraycc",
             "request": "launch",
             "mainClass": "arraycc",
