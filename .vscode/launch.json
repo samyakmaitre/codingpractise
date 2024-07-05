@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "recursive",
+            "request": "launch",
+            "mainClass": "recursive",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "armstrong",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
