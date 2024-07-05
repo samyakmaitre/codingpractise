@@ -74,10 +74,17 @@ public class recursive {
         
     }
 
+    public static int pow(int i, int n){
+        if(n==0){
+            return 1;
+        }
+        return i*pow(i ,n-1);
+    }
+
 
     public static void main(String args[]){
-        int[] A = {1,2,7,4,7,5};
-        int result = foc(A,7, 0);
+        
+        int result = pow(5,3);
         System.out.println(result);
     }
 
