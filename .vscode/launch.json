@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "merge",
+            "request": "launch",
+            "mainClass": "merge",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "mergesort",
+            "request": "launch",
+            "mainClass": "mergesort",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "T",
+            "request": "launch",
+            "mainClass": "T",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "recursive",
             "request": "launch",
             "mainClass": "recursive",
