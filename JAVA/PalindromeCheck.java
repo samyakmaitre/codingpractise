@@ -10,6 +10,7 @@ public class PalindromeCheck {
             number /= 10;
         }
 
+        
         // Check if the original number is equal to the reversed number
         return originalNumber == reversedNumber;
     }
