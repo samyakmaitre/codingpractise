@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
+            "name": "smallest_number",
+            "request": "launch",
+            "mainClass": "smallest_number",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
+            "name": "segregate01",
+            "request": "launch",
+            "mainClass": "segregate01",
+            "projectName": "JAVA_d48921b9"
+        },
+        {
+            "type": "java",
             "name": "PalindromeCheck",
             "request": "launch",
             "mainClass": "PalindromeCheck",
