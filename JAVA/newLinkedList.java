@@ -1,6 +1,5 @@
 import java.util.LinkedList;
 
-
 public class newLinkedList {
     public static void main(String args[]){
         LinkedList<Integer> ll = new LinkedList<>();
@@ -12,13 +11,6 @@ public class newLinkedList {
         ll.add(4,5);
         ll.add(5,6);
 
-        System.out.println(ll);
-
-        ll.remove(2);
-        System.out.println(ll);
-        ll.removeFirst();
-        System.out.println(ll);
-        ll.removeLast();
-        System.out.println(ll);
+        System.out.println(ll.get(2)+10);
     }
 }

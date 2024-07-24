@@ -1,5 +1,0 @@
-public class selectionsort(){
-    public static void ssort(int arr[]){
-        
-    }
-}
