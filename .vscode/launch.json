@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "java18",
+            "request": "launch",
+            "mainClass": "java18",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "newLinkedList",
+            "request": "launch",
+            "mainClass": "newLinkedList",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Linked",
+            "request": "launch",
+            "mainClass": "Linked",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "merge",
             "request": "launch",
             "mainClass": "merge",

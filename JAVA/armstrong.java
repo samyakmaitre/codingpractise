@@ -5,7 +5,7 @@ public class armstrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n =sc.nextInt();
-       int s=0;
+        int s=0;
         for(int i=n;i!=0;i/=10){
             int digit = i%10;
             s+=Math.pow(digit,3);
@@ -20,13 +20,15 @@ public class armstrong {
             System.out.println("NOT");
 
         }
+
+        sc.close();
     }
 }
 
 
 // class Solution {
 
-//     String compareFrac(String str) 
+//     String compareFrac(String str)
 //     {
 //         String[] fs = str.split(", ");
         
