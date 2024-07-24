@@ -1,42 +1,43 @@
-public class butterfly {
-    public static void butter(int n)
-    {
-            //1st half
-        for(int i=1;i<=n; i++)
-        {
-
-            for(int j=1; j<=i; j++){
+public class Butterfly {
+    public static void butter(int n) {
+        // 1st half
+        for (int i = 1; i <= n; i++) {
+            // Stars on the left side
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
 
-            //spaces 
-            for(int j=1; j<=2*(n-1); j++){
-                System.out.println(" ");
+            // Spaces in the middle
+            for (int j = 1; j <= 2 * (n - i); j++) {
+                System.out.print(" ");
             }
 
-            //stars
-            for(int i=1; j<=i; j++){
+            // Stars on the right side
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
+
+            System.out.println();
         }
 
-        //2nd
-        for(int i=n;i<=1; i--)
-        {
-
-            for(int j=1; j<=i; j++){
+        // 2nd half
+        for (int i = n; i >= 1; i--) {
+            // Stars on the left side
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
 
-            //spaces 
-            for(int j=1; j<=2*(n-1); j++){
-                System.out.println(" ");
+            // Spaces in the middle
+            for (int j = 1; j <= 2 * (n - i); j++) {
+                System.out.print(" ");
             }
 
-            //stars
-            for(int i=1; j<=i; j++){
+            // Stars on the right side
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
+
+            System.out.println();
         }
     }
 

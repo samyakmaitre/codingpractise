@@ -1,9 +1,8 @@
 import java.util.*;
-import javax.naming.spi.DirStateFactory;
 
 public class combinationgfg {
     class Solution{
-        public List<List<Integer>> CombinationSum(int arr[], int n, intk){
+        public List<List<Integer>> CombinationSum(int arr[], int n, int k){
             List<List<Integer>> result = new ArrayList<>();
             Arrays.sort(arr);
             findCombinations(arr,0,k,new ArrayList<>(), result);

@@ -14,6 +14,6 @@ public class hollow {
     }
 
     public static void main(String[] args) {
-        patter(10,7)
+        patter(10,7);
     }
 }

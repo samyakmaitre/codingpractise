@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Java26",
+            "request": "launch",
+            "mainClass": "Java26",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly",
+            "request": "launch",
+            "mainClass": "Butterfly",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "butterfly",
+            "request": "launch",
+            "mainClass": "butterfly",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "java18",
             "request": "launch",
             "mainClass": "java18",
