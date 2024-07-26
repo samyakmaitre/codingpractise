@@ -1,6 +1,6 @@
-public class Linked {
+public class LinkedList {
 
-    class Node {
+    private class Node {
         int data;
         Node next;
 
@@ -18,10 +18,10 @@ public class Linked {
         Node newNode = new Node(data);
         if (head == null) {
             head = tail = newNode;
-            return;
+        } else {
+            newNode.next = head;
+            head = newNode;
         }
-        newNode.next = head;
-        head = newNode;
     }
 
     // Add last
@@ -29,33 +29,45 @@ public class Linked {
         Node newNode = new Node(data);
         if (head == null) {
             head = tail = newNode;
-            return;
+        } else {
+            tail.next = newNode;
+            tail = newNode;
         }
-        tail.next = newNode;
-        tail = newNode;
     }
 
     // Add in middle
     public void add(int data, int idx) {
-        Node newNode = new Node(data);
+        if (idx < 0) {
+            throw new IndexOutOfBoundsException("Index cannot be negative");
+        }
         if (idx == 0) {
             addFirst(data);
             return;
         }
+
+        Node newNode = new Node(data);
+        
         Node temp = head;
         int i = 0;
-        while (i < idx - 1) {
+        
+        while (i < idx - 1 && temp != null) {
             temp = temp.next;
             i++;
         }
+        if (temp == null) {
+            throw new IndexOutOfBoundsException("Index out of bounds");
+        }
         newNode.next = temp.next;
         temp.next = newNode;
+        if (newNode.next == null) {
+            tail = newNode;
+        }
     }
 
     // Remove first
-    public void remFirst() {
+    public void removeFirst() {
         if (head == null) {
-            return;
+            throw new IllegalStateException("List is empty");
         }
         head = head.next;
         if (head == null) {
@@ -78,7 +90,7 @@ public class Linked {
     }
 
     public static void main(String[] args) {
-        Linked ll = new Linked();
+        LinkedList ll = new LinkedList();
 
         ll.add(2, 0);
         ll.print();
@@ -90,9 +102,9 @@ public class Linked {
         ll.print();
 
         // Test remove first
-        ll.remFirst();
+        ll.removeFirst();
         ll.print();
-        ll.remFirst();
+        ll.removeFirst();
         ll.print();
     }
 }
