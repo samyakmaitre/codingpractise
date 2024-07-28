@@ -20,6 +20,5 @@ public class linear {
         else{
             System.out.println("Index is: "+out);
         }
-        
     }
 }
