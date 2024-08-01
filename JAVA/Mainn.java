@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class Node {
     int data;
@@ -42,7 +42,7 @@ class LinkedList {
     }
 }
 
-class Main {
+class Mainn {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         LinkedList l1 = new LinkedList();
@@ -55,5 +55,6 @@ class Main {
                 l1.add(element);
         }
         l1.printLinkedList();
+        sc.close();
     }
 }

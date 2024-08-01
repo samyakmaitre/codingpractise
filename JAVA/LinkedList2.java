@@ -1,4 +1,5 @@
-public class LinkedList {
+
+public class LinkedList2 {
 
     private class Node {
         int data;
@@ -90,7 +91,7 @@ public class LinkedList {
     }
 
     public static void main(String[] args) {
-        LinkedList ll = new LinkedList();
+        LinkedList2 ll = new LinkedList2();
 
         ll.add(2, 0);
         ll.print();

@@ -1,37 +1,45 @@
-class leetcode108 {
+public class leetcode108{
 
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
+}
+
+class TreeNode{
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(){}
+    
+    TreeNode(int val){
+        this.val = val;
     }
 
-    public TreeNode sortedArrayToBST(int[] nums){
-        return buildBST(nums, 0, nums.length-1);
+    TreeNode(int val, TreeNode left, TreeNode right){
+        this.val = val;
+        this.left = left;
+        this.right = right;
     }
 
-    private TreeNode buildBST(int[] nums, int start, int end){
+}
 
+class Solution{
+    public TreeNode arrtobst(int[] nums){
+        return buildbst(nums, 0, nums.length-1);
+    }
+
+    private TreeNode buildbst(int[] nums, int start, int end){
         //base case
         if(start>end){
             return null;
         }
 
-        //kaam
-        int mid = start + (end -start)/2;
+        //work
+        int mid = start + (end-start)/2;
         TreeNode root = new TreeNode(nums[mid]);
 
-        //recursion
-        root.left = buildBST(nums, start, mid-1);
-        root.right = buildBST(nums, mid+1, end);
-
+        //recurssion
+        root.left = buildbst(nums, start, mid-1);
+        root.right = buildbst(nums, mid+1, end);
+        
         return root;
     }
 }
