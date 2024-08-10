@@ -40,18 +40,18 @@ public class queue1{
         //peek
         public static int peek(){
             if (isEmpty()){
-                System.out.println("EMPTY")
+                System.out.println("EMPTY");
             }
             return arr[0];
         }
     }
 
     public static void main(String[] args){
-        Queue q1 = new Queue();
-        q1.add(10);
-        q1.add(50);
-        q1.add(40);
+        Queue q1 = new Queue;
+        // q1.add(10);
+        // q1.add(50);
+        // q1.add(40);
 
-        q1.peek();
+        System.out.println(q1.peek());
     }
 }
