@@ -1,24 +1,27 @@
 import java.util.*;
 
 public class palindrome{
-    public static void main(String[] args){
-        int num  = 10201;
-        int original = num;
 
+    public static boolean checkPalindrome(int num){
+        int dup = num;
         int rev = 0;
-        while(num!=0){
 
-            int digit = num%10;
-            rev = (rev * 10) + digit;
+        while(num!=0){
+            int ld = num % 10;
+            rev = (rev * 10) + ld;
 
             num /= 10;
         }
 
-        if(original==rev){
-            System.out.println("True");
+        if(rev == dup){
+            return true;
         }
         else{
-            System.out.println(false);
+            return false;
         }
+    }
+    public static void main(String[] args){
+        int n = 10201;
+        System.out.println(checkPalindrome(n));
     }
 }
