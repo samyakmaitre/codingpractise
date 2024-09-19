@@ -12,7 +12,7 @@ public class smallestInArray{
     }
     
     public static void main(String[] args){
-        int[] arr = {56,43,78,83,32,91,66};
+        int[] arr = {8,10,5,7,9};
         System.out.println(smallest(arr));
     }
 }
