@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class smallestStringInt{
+public class xsmallestStringInt{
     public static int smallest(String[] arr){
         int min = Integer.MAX_VALUE;
         for(String x : arr){
