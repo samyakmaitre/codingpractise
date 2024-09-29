@@ -1,22 +1,23 @@
 import java.util.*;
 
-public class binToDec {
-
-    public static double convert(int n){
-        double result = 0;
-        int count  = 0;
-
-        while(n!=0){
-            double ld = n % 10;
-            result = result + ld * Math.pow(2,count);
-            count++;
-            n /= 10;
-        }
-
-        return result;
-    }
+public class binToDec{
     public static void main(String[] args){
-        int num = 1011;
-        System.out.println((int)convert(num));
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a binary number: ");
+        int bin = sc.nextInt();
+
+        int dec = 0;
+        int p = 0;
+
+        // bin to dec
+        while(bin > 0){
+            int ld = bin % 10;
+            dec += ld * Math.pow(2,p);
+            bin /= 10;
+            p++;
+        }
+        System.out.println("Decimal equi: " + dec);
+
+        sc.close();
     }
 }
