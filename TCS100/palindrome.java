@@ -3,29 +3,28 @@ import java.util.*;
 public class palindrome{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter an number: ");
-        int number = sc.nextInt();
+        System.out.println("Enter a String: ");
+        String input = sc.nextLine();
 
-        if(palindromeCheck(number)){
-            System.out.println("is Palindrome");
+        if(isPalindrome(input)){
+            System.out.println(input + " is a palindrome");
         }
         else{
-            System.out.println("not a palindrome");
+            System.out.println(input + " is not palindrome");
         }
-
-        sc.close();
     }
 
-    private static boolean palindromeCheck(int num){
-        int original = num;
-        int reversed = 0;
+    public static boolean isPalindrome(String str){
+        int left = 0;
+        int right = str.length()-1;
 
-        while(num!=0){
-            int digit = num % 10;
-            reversed = reversed * 10 + digit;
-            num /= 10;
+        while(left < right){
+            if(str.charAt(left) != str.charAt(right)){
+                return false;
+            }
+            left++;
+            right--;
         }
-
-        return original == reversed;
+        return true;
     }
 }
