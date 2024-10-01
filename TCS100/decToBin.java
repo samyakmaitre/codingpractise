@@ -5,7 +5,7 @@ public class decToBin {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         String b = Integer.toBinaryString(x);
-
+        
         System.out.println(b);
     }
 }
