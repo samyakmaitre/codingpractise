@@ -1,0 +1,909 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BST",
+            "request": "launch",
+            "mainClass": "BST",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTrees",
+            "request": "launch",
+            "mainClass": "BinaryTrees",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTrees2",
+            "request": "launch",
+            "mainClass": "BinaryTrees2",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "BorderLayoutExample",
+            "request": "launch",
+            "mainClass": "BorderLayoutExample",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "BorderLayoutExamplee",
+            "request": "launch",
+            "mainClass": "BorderLayoutExamplee",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSortAlgo",
+            "request": "launch",
+            "mainClass": "BubbleSortAlgo",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Butterfly",
+            "request": "launch",
+            "mainClass": "Butterfly",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "GUI",
+            "request": "launch",
+            "mainClass": "GUI",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Largest0Subarray",
+            "request": "launch",
+            "mainClass": "Largest0Subarray",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Leetcode145",
+            "request": "launch",
+            "mainClass": "Leetcode145",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList2",
+            "request": "launch",
+            "mainClass": "LinkedList2",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "MinimalCost",
+            "request": "launch",
+            "mainClass": "MinimalCost",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "OOPS",
+            "request": "launch",
+            "mainClass": "OOPS",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Office",
+            "request": "launch",
+            "mainClass": "Office",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "POTD3007",
+            "request": "launch",
+            "mainClass": "POTD3007",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeCheck",
+            "request": "launch",
+            "mainClass": "PalindromeCheck",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Queue1",
+            "request": "launch",
+            "mainClass": "Queue1",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "SortingOrder",
+            "request": "launch",
+            "mainClass": "SortingOrder",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "SqlTest",
+            "request": "launch",
+            "mainClass": "SqlTest",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "add_Two_Numbers",
+            "request": "launch",
+            "mainClass": "add_Two_Numbers",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "armstrong",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "arraycc",
+            "request": "launch",
+            "mainClass": "arraycc",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "awesomeSort",
+            "request": "launch",
+            "mainClass": "awesomeSort",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "binToDec",
+            "request": "launch",
+            "mainClass": "binToDec",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "binToOctal",
+            "request": "launch",
+            "mainClass": "binToOctal",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "binary",
+            "request": "launch",
+            "mainClass": "binary",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "binomial",
+            "request": "launch",
+            "mainClass": "binomial",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "bintodec",
+            "request": "launch",
+            "mainClass": "bintodec",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "callByRef",
+            "request": "launch",
+            "mainClass": "callByRef",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "callByRef2",
+            "request": "launch",
+            "mainClass": "callByRef2",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "callByValue",
+            "request": "launch",
+            "mainClass": "callByValue",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "countChars",
+            "request": "launch",
+            "mainClass": "countChars",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "decToBin",
+            "request": "launch",
+            "mainClass": "decToBin",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "destination",
+            "request": "launch",
+            "mainClass": "destination",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "duplicateparentheses",
+            "request": "launch",
+            "mainClass": "duplicateparentheses",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "endodfile",
+            "request": "launch",
+            "mainClass": "endodfile",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "evenodd",
+            "request": "launch",
+            "mainClass": "evenodd",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "floyd",
+            "request": "launch",
+            "mainClass": "floyd",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "hellojava",
+            "request": "launch",
+            "mainClass": "hellojava",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "hollow",
+            "request": "launch",
+            "mainClass": "hollow",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "in",
+            "request": "launch",
+            "mainClass": "in",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "ion",
+            "request": "launch",
+            "mainClass": "ion",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "ipop",
+            "request": "launch",
+            "mainClass": "ipop",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java1",
+            "request": "launch",
+            "mainClass": "java1",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java10",
+            "request": "launch",
+            "mainClass": "java10",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java11",
+            "request": "launch",
+            "mainClass": "java11",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java12",
+            "request": "launch",
+            "mainClass": "java12",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java13",
+            "request": "launch",
+            "mainClass": "java13",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java14",
+            "request": "launch",
+            "mainClass": "java14",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java15",
+            "request": "launch",
+            "mainClass": "java15",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java16",
+            "request": "launch",
+            "mainClass": "java16",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java17",
+            "request": "launch",
+            "mainClass": "java17",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java18",
+            "request": "launch",
+            "mainClass": "java18",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java19",
+            "request": "launch",
+            "mainClass": "java19",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java2",
+            "request": "launch",
+            "mainClass": "java2",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java21",
+            "request": "launch",
+            "mainClass": "java21",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java22",
+            "request": "launch",
+            "mainClass": "java22",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java23",
+            "request": "launch",
+            "mainClass": "java23",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java24",
+            "request": "launch",
+            "mainClass": "java24",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java25",
+            "request": "launch",
+            "mainClass": "java25",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java26",
+            "request": "launch",
+            "mainClass": "java26",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java27",
+            "request": "launch",
+            "mainClass": "java27",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java28",
+            "request": "launch",
+            "mainClass": "java28",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java29",
+            "request": "launch",
+            "mainClass": "java29",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java3",
+            "request": "launch",
+            "mainClass": "java3",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java4",
+            "request": "launch",
+            "mainClass": "java4",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java5",
+            "request": "launch",
+            "mainClass": "java5",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java6",
+            "request": "launch",
+            "mainClass": "java6",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java7",
+            "request": "launch",
+            "mainClass": "java7",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java8",
+            "request": "launch",
+            "mainClass": "java8",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "java9",
+            "request": "launch",
+            "mainClass": "java9",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "kadanes",
+            "request": "launch",
+            "mainClass": "kadanes",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "largest",
+            "request": "launch",
+            "mainClass": "largest",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "largestInArray",
+            "request": "launch",
+            "mainClass": "largestInArray",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "leetcode12",
+            "request": "launch",
+            "mainClass": "leetcode12",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "leetcode1310",
+            "request": "launch",
+            "mainClass": "leetcode1310",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "leetcode1367",
+            "request": "launch",
+            "mainClass": "leetcode1367",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "leetcode144",
+            "request": "launch",
+            "mainClass": "leetcode144",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "leetcode179",
+            "request": "launch",
+            "mainClass": "leetcode179",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "leetcode26",
+            "request": "launch",
+            "mainClass": "leetcode26",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "leetcode401",
+            "request": "launch",
+            "mainClass": "leetcode401",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "leetcode67",
+            "request": "launch",
+            "mainClass": "leetcode67",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "leetcode88$Solution",
+            "request": "launch",
+            "mainClass": "leetcode88$Solution",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "linear",
+            "request": "launch",
+            "mainClass": "linear",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "linearcopy",
+            "request": "launch",
+            "mainClass": "linearcopy",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "minimizeTheHeight",
+            "request": "launch",
+            "mainClass": "minimizeTheHeight",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "newLinkedList",
+            "request": "launch",
+            "mainClass": "newLinkedList",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "nqueens",
+            "request": "launch",
+            "mainClass": "nqueens",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "nthNaturalNumber",
+            "request": "launch",
+            "mainClass": "nthNaturalNumber",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "output",
+            "request": "launch",
+            "mainClass": "output",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "pairs",
+            "request": "launch",
+            "mainClass": "pairs",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "palindromeInRange",
+            "request": "launch",
+            "mainClass": "palindromeInRange",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "pattern",
+            "request": "launch",
+            "mainClass": "pattern",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "pyramid",
+            "request": "launch",
+            "mainClass": "pyramid",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "recursive",
+            "request": "launch",
+            "mainClass": "recursive",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "rev",
+            "request": "launch",
+            "mainClass": "rev",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "reverseWords",
+            "request": "launch",
+            "mainClass": "reverseWords",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "rohombus",
+            "request": "launch",
+            "mainClass": "rohombus",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "secondSmallest_Largest",
+            "request": "launch",
+            "mainClass": "secondSmallest_Largest",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "segregate01",
+            "request": "launch",
+            "mainClass": "segregate01",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "selectionSort",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "singlenumber",
+            "request": "launch",
+            "mainClass": "singlenumber",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "stacks",
+            "request": "launch",
+            "mainClass": "stacks",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "string",
+            "request": "launch",
+            "mainClass": "string",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "subarray",
+            "request": "launch",
+            "mainClass": "subarray",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "toCharArray",
+            "request": "launch",
+            "mainClass": "toCharArray",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "validparentheses",
+            "request": "launch",
+            "mainClass": "validparentheses",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "validparentheses2",
+            "request": "launch",
+            "mainClass": "validparentheses2",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "xdecToBin",
+            "request": "launch",
+            "mainClass": "xdecToBin",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "xsmallestStringInt",
+            "request": "launch",
+            "mainClass": "xsmallestStringInt",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "xstringBinToDecimal",
+            "request": "launch",
+            "mainClass": "xstringBinToDecimal",
+            "projectName": "codingpractise_75382018"
+        }
+    ]
+}
