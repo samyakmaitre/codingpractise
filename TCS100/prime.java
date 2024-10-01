@@ -13,8 +13,7 @@ public class prime {
             }
         }
         return true; 
-    }
-    
+    }    
 
     public static void main(String[] args){
         while(true){
