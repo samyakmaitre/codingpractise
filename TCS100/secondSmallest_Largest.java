@@ -1,41 +1,40 @@
 import java.util.*;
 
-public class secondSmallest_Largest {
-
-    public static void elements(int[] arr){
-        
-        if(arr.length < 2){
-            System.out.println(-1);
-            System.out.println(" ");
-            System.out.println(-1);
-            System.out.println("\n");
-        }
-
-        int min = Integer.MAX_VALUE;
-        int min2 = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
-        int max2 = Integer.MIN_VALUE;
-
-        for(int i = 0; i < arr.length; i++){
-            min = Math.min(min,arr[i]);
-            max = Math.max(max,arr[i]);
-        }
-
-        for(int i = 0 ; i< arr.length; i++){
-            if(arr[i]<min && arr[i] != min){
-                min2 = arr[i];
-            }
-            if(arr[i]>max && arr[i] != max){
-                max2 = arr[i];
-            }
-        }
-        System.out.println(min2);
-        System.out.println(max2);
-    }
-    
-
+public class secondSmallest_Largest{
     public static void main(String[] args){
-        int[] arr1 = {1,2,4,7,7,5};
-        elements(arr1);
+        int[] arr = {12,35,1,10,34,1};
+        findSecondSmallestLargest(arr);
+    }
+
+    public static void findSecondSmallestLargest(int[] arr){
+        if(arr.length < 2){
+            System.out.println("Invalid");
+            return;
+        }
+
+        int smallest = Integer.MAX_VALUE, secondSmallest = Integer.MAX_VALUE;
+        int largest = Integer.MIN_VALUE, secondLargest = Integer.MIN_VALUE;
+
+        for(int i =0; i< arr.length; i++){
+            if(arr[i] < smallest){
+                secondSmallest = smallest;
+                smallest = arr[i];
+            }else if(arr[i] < secondSmallest && arr[i] != smallest){
+                secondSmallest = arr[i];
+            }
+
+            if(arr[i] > largest) {
+                secondLargest = largest;
+                largest = arr[i];
+            } else if(arr[i] > secondLargest && arr[i] != largest){
+                secondLargest = arr[i];
+            }
+        }
+        if(secondSmallest == Integer.MAX_VALUE || secondLargest == Integer.MIN_VALUE){
+            System.out.println("Not found");
+        }else{
+            System.out.println(secondLargest);
+            System.out.println(secondSmallest);
+        }
     }
 }
