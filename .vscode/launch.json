@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "leetcode1331",
+            "request": "launch",
+            "mainClass": "leetcode1331",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "multiplyLLs",
             "request": "launch",
             "mainClass": "multiplyLLs",
