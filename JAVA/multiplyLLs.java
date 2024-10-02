@@ -1,30 +1,22 @@
 import java.util.*;
+import java.util.LinkedList;
 
-class Node{
-
-    int data;
-    Node next;
-
-    Node(int data){
-        this.data = data;
-        this.next = null;
-    }
-
-}
-
-class LinkedList{
-    Node head;
-    int data;
-    Node tail;
-
-    LinkedList(int data){
-        this.data = data;
-        head.next = tail;
-    }
-}
 
 public class multiplyLLs {
+
     public static void main(String[] args){
-        LinkedList<Integer> ll = new LinkedList();
+        LinkedList<Integer> L1 = new LinkedList<>();
+        L1.addFirst(2);
+        L1.addFirst(1);
+        
+
+        LinkedList<Integer> L2 = new LinkedList<>();
+        L2.addFirst(0);
+        L2.addFirst(2);
+        
+
+        Node head1 = L1.getHead();
     }
 }
+
+

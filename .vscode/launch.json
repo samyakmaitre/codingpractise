@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "multiplyLLs",
+            "request": "launch",
+            "mainClass": "multiplyLLs",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList3",
+            "request": "launch",
+            "mainClass": "LinkedList3",
+            "projectName": "codingpractise_75382018"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
