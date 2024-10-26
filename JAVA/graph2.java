@@ -5,6 +5,7 @@ class Edge{
     int dest;
     int wt;
 
+    
     Edge(int s, int d, int w){
         this.src = s;
         this.dest= d;
