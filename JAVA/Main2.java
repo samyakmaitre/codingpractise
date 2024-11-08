@@ -1,21 +1,10 @@
-public class Main2 {
-
-    static class Class1 {
-        String x = "from Class1";
-    }
-
-    static class Class2 {
-        String y = "from Class2";
-    }
-
+class Main2 {
     public static void main(String[] args) {
-        Class1 myObj1 = new Class1();
-        myObj1.x = "Modified";
-
-        Class2 myObj2 = new Class2();
-        String y1 = myObj2.y;
-
-        System.out.println(myObj1.x);
-        System.out.println(y1);
+      // create an object of the Student class (which inherits attributes and methods from Main)
+      Student myObj = new Student();
+      System.out.println("Name: " + myObj.fname);
+      System.out.println("Age: " + myObj.age);
+      System.out.println("Graduation Year: " + myObj.graduationYear);
+      myObj.study(); // call abstract method
     }
 }
