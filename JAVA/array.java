@@ -1,15 +1,9 @@
-public class array {
-    public static void update(int marks[]){
-        for(int i=0; i<marks.length; i++){
-            marks[i]=marks[i]+1;
-        }
-    }
-    public static void main(String[] args) {
-        int marks[] = {57, 98, 86};
-        update(marks);
+import Mypackage.addition;
 
-        for(int i=0; i<marks.length; i++){
-            System.out.println(marks[i]);
-        }
+public class array {
+    
+    public static void main(String[] args) {
+        int s = addition.additionof(3,4);
+        System.out.println(s);
     }
 }
