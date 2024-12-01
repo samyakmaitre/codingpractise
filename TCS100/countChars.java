@@ -1,3 +1,5 @@
+//Problem Statement: Given a string, write a program to count the number of vowels, consonants, and spaces in that string.
+
 import java.util.*;
 
 public class countChars {

@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "enums2",
+            "request": "launch",
+            "mainClass": "enums2",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "enums",
+            "request": "launch",
+            "mainClass": "enums",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "largest2",
+            "request": "launch",
+            "mainClass": "largest2",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "largestnum",
+            "request": "launch",
+            "mainClass": "largestnum",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "largestPossible",
+            "request": "launch",
+            "mainClass": "largestPossible",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "binToOct",
+            "request": "launch",
+            "mainClass": "binToOct",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "Main2",
             "request": "launch",
             "mainClass": "Main2",
