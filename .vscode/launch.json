@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "graphBFS",
+            "request": "launch",
+            "mainClass": "graphBFS",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "search",
             "request": "launch",
             "mainClass": "search",
