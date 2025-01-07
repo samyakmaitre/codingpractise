@@ -1,23 +1,27 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
-public class graphDFS{
-    static class Edge{
+public class graphDFS {
+    static class Edge {
         int src;
         int dest;
         int wt;
 
-        public Edge(int s, int d, int w){
+        public Edge(int s, int d, int w) {
             this.src = s;
             this.dest = d;
             this.wt = w;
         }
     }
 
-    public static void createGraph(ArrayList<Edge>[] graph){
-        for(int i=0; i<graph.length; i++){
+    // Method to create the graph
+    public static void createGraph(ArrayList<Edge>[] graph) {
+        for (int i = 0; i < graph.length; i++) {
             graph[i] = new ArrayList<>();
         }
 
+        // Adding edges (example graph)
         graph[0].add(new Edge(0, 1, 1));
         graph[0].add(new Edge(0, 2, 1));
 
@@ -42,19 +46,44 @@ public class graphDFS{
         graph[6].add(new Edge(6, 5, 1));
     }
 
-    public static void bfs(ArrayList<Edge>[] graph){
+    // BFS Traversal Method
+    public static void bfs(ArrayList<Edge>[] graph) {
         Queue<Integer> q = new LinkedList<>();
-        boolean vis[] = new boolean[graph.length];
+        boolean[] vis = new boolean[graph.length];
         q.add(0);
 
-        while(!q.isEmpty()){
+        System.out.print("BFS Traversal: ");
+        while (!q.isEmpty()) {
             int curr = q.remove();
-            if(!vis[curr]){
+            if (!vis[curr]) {
                 vis[curr] = true;
                 System.out.print(curr + " ");
 
-                for(int j=0; j<graph[curr].size)
+                for (Edge e : graph[curr]) {
+                    q.add(e.dest);
+                }
             }
         }
+        System.out.println();
+    }
+
+    public static void dfs(ArrayList<Edge>[] graph, int curr, boolean vis[]){
+        vis[curr] = true;
+        System.out.println(curr + " ");
+
+        for(int i=0; i<graph[curr].size(); i++){
+            Edge e = graph[curr].get(i);
+            if(!vis[e.dest]){
+                dfs(graph, e.dest, vis);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int V = 7; // Number of vertices
+        ArrayList<Edge>[] graph = new ArrayList[V];
+        createGraph(graph);
+
+        bfs(graph);
     }
 }
