@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedList2",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList2",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList1",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList1",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "GraphBFS",
             "request": "launch",
             "mainClass": "GraphBFS",
