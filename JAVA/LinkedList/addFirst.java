@@ -1,4 +1,4 @@
-public class LinkedList2 {
+public class addFirst {
     public static class Node {
         int data;
         Node next;
@@ -12,7 +12,7 @@ public class LinkedList2 {
     public static Node head;
     public static Node tail;
 
-    public void addFirst(int data) {
+    public void addFirstOp(int data) {
         Node newNode = new Node(data);
 
         if (head == null) {
@@ -24,20 +24,10 @@ public class LinkedList2 {
         head = newNode;
     }
 
-    public static void traverse(Node head) {
-        Node curr = head;
-        while (curr != null) {
-            System.out.println(curr.data); // Print the data instead of the object
-            curr = curr.next;
-        }
-    }
-
     public static void main(String[] args) {
-        LinkedList2 ll = new LinkedList2();
-        ll.addFirst(1);
-        ll.addFirst(2);
-        ll.addFirst(4);
-
-        traverse(head);
+        addFirst ll = new addFirst();
+        ll.addFirstOp(1);
+        ll.addFirstOp(2);
+        ll.addFirstOp(4);
     }
 }

@@ -16,6 +16,6 @@ public class LinkedList1
     public static void main(String[] args) {
         LinkedList1 ll = new LinkedList1();
         Node head = new Node(1);
-        System.out.println(head.next);
+        System.out.println(head.data);
     }
 }
