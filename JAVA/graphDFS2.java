@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class graphDFS{
+public class graphDFS2{
     static class Edge{
         int src;
         int dest;
@@ -14,21 +14,22 @@ public class graphDFS{
     }
 
     public static void dfs(ArrayList<Edge>[] graph){
-        boolean[] vis = new boolean[graph.length];
-        for(int i =0; i<graph.length; i++){
+        boolean vis[] = new boolean[graph.length];
+        for(int i=0; i<graph.length; i++){
             if(!vis[i]){
                 dfsUtil(graph, i, vis);
+                System.out.println();
             }
         }
     }
 
+    
+
     public static void dfsUtil(ArrayList<Edge>[] graph, int curr, boolean[] vis){
         vis[curr] = true;
         System.out.print(curr + " ");
-        for(Edge e : graph[curr]){
-            if(!vis[e.dest]){
-                dfsUtil(graph, e.dest, vis);
-            }
+        for(int i=0; i<graph[curr].size(); i++){
+            if(vis[])
         }
     }
 
@@ -63,5 +64,6 @@ public class graphDFS{
         graph[6].add(new Edge(6, 5, 1));
 
         dfs(graph);
+
     }
 }
