@@ -27,7 +27,7 @@ public class bipartite{
                 col[i] = 0;
                 while(!q.isEmpty()){
                     int curr = q.remove();
-                    for(int j=0; j<graph[curr].size; j++){
+                    for(int j=0; j<graph[curr].size(); j++){
                         Edge e = graph[curr].get(j);
                         if(col[e.dest] == -1){
                             int nextCol = col[curr] == 0?1:0;
@@ -41,7 +41,7 @@ public class bipartite{
                 }
             }
         }
-        return false;
+        return true;
     }
 
     public static void main(String[] args){
@@ -57,16 +57,16 @@ public class bipartite{
 
         //graph1
         graph1[0].add(new Edge(0,1,1));
-        graph1[0].add(new Edge(0,4,1));
+        graph1[0].add(new Edge(0,2,1));
 
         graph1[1].add(new Edge(1,0,1));
-        graph1[1].add(new Edge(1,2,1));
+        graph1[1].add(new Edge(1,3,1));
 
-        graph1[2].add(new Edge(2,1,1));
+        graph1[2].add(new Edge(2,0,1));
         graph1[2].add(new Edge(2,3,1));
 
+        graph1[3].add(new Edge(3,1,1));
         graph1[3].add(new Edge(3,2,1));
-        graph1[3].add(new Edge(3,4,1));
         
         //graph2
         graph2[0].add(new Edge(0,1,1));
@@ -85,5 +85,8 @@ public class bipartite{
         graph2[4].add(new Edge(4,3,1));
         
         //
+
+        System.out.println(isBipartite(graph1));
+        System.out.print(isBipartite(graph2));
     }
 }
