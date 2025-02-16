@@ -7,8 +7,8 @@ public class binary{
             int mid = start + (end -start)/2 ;
 
             if(arr[mid]==key) {
-                System.out.println("key found at: " + mid) 
-                return
+                System.out.println("key found at: " + mid) ;
+           
             }
 
             if(arr[mid]<key){

@@ -1,3 +1,4 @@
+package leetcode;
 public class leetcode26 {
 
     static class Solution {

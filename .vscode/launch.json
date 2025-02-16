@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
+            "name": "armstrong",
+            "request": "launch",
+            "mainClass": "armstrong",
+            "projectName": "codingpractise_75382018"
+        },
+        {
+            "type": "java",
             "name": "graphBFS",
             "request": "launch",
             "mainClass": "graphBFS",

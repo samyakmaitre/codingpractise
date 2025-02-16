@@ -1,3 +1,5 @@
+package leetcode;
+
 public class leetcode88{
     static class Solution{
         public static void merge(int[] nums1, int[] nums2, int m, int n){

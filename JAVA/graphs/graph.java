@@ -1,15 +1,16 @@
 import java.util.*;
 
-public class graphDFS {
-    static class Edge {
-        int src, dest, wt;
+class Edge {
+    int src, dest, wt;
 
-        Edge(int s, int d, int w) {
-            this.src = s;
-            this.dest = d;
-            this.wt = w;
-        }
+    Edge(int s, int d, int w) {
+        this.src = s;
+        this.dest = d;
+        this.wt = w;
     }
+}
+public class graph {
+    
 
     public static ArrayList<Edge>[] createGraph(int v) {
         ArrayList<Edge>[] graph = new ArrayList[v];

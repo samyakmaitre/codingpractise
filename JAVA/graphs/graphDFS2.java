@@ -29,7 +29,7 @@ public class graphDFS2{
         vis[curr] = true;
         System.out.print(curr + " ");
         for(int i=0; i<graph[curr].size(); i++){
-            if(vis[])
+         
         }
     }
 

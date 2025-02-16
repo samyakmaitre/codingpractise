@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Solution{
-    public String fractionOperation(String expression){
+    public String FractionOperation(String expression){
         int numerator = 0;
         int denominator = 1;
         int i =0;
@@ -26,7 +26,6 @@ class Solution{
             i++;
 
             int denom = 0;
-            while(i<n && Character.isDigit(expression));
         }
     }
 }

@@ -1,4 +1,6 @@
-public class Butterfly {
+import java.util.*;
+
+public class butterfly {
     public static void butter(int n) {
         // 1st half
         for (int i = 1; i <= n; i++) {

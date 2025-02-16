@@ -1,4 +1,4 @@
-import java.util.*;
+package leetcode;
 
 public class leetcode12{
 

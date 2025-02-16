@@ -1,6 +1,8 @@
+package leetcode;
+
 import java.util.*;
 
-public class Leetcode145 {
+public class leetcode145 {
 
     static class Node {
         int val;
